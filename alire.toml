@@ -1,0 +1,16 @@
+name = "ada_unbounded_perf_comparison"
+description = " Performance comparison of some Ada implementations of Big_Num "
+version = "0.1.0-dev"
+
+authors = ["Fernando Oleo Blanco"]
+maintainers = ["Fernando Oleo Blanco <irvise@irvise.xyz>"]
+maintainers-logins = ["Irvise"]
+licenses = "MIT"
+website = ""
+tags = []
+
+[[depends-on]]
+pragmarc = "^20240810.0.0"
+
+[[depends-on]]
+gnatcoll_gmp = "^25.0.0"
